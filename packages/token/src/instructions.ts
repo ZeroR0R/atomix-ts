@@ -15,7 +15,7 @@ import {
 } from '@project-serum/borsh';
 
 export const TOKEN_PROGRAM_ID = new PublicKey(
-  'TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA',
+  'TokenAAGbeQq5tGW2r5RoR3oauzN2EkNFiHNPw9q34s',
 );
 
 export const WRAPPED_SOL_MINT = new PublicKey(

@@ -22,7 +22,7 @@ export const CLOSE_ACCOUNT_DESTINATION_INDEX = 1;
 export const CLOSE_ACCOUNT_OWNER_INDEX = 2;
 
 export const TOKEN_PROGRAM_ID = new PublicKey(
-  'TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA',
+  'TokenAAGbeQq5tGW2r5RoR3oauzN2EkNFiHNPw9q34s',
 );
 
 export const WRAPPED_SOL_MINT = new PublicKey(

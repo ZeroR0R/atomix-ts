@@ -6,12 +6,12 @@ import {
 } from '@solana/web3.js';
 
 const TOKEN_PROGRAM_ID = new PublicKey(
-  'TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA',
+  'TokenAAGbeQq5tGW2r5RoR3oauzN2EkNFiHNPw9q34s',
 );
 
 /** Program ID for the associated token account program. */
 export const ASSOCIATED_TOKEN_PROGRAM_ID = new PublicKey(
-  'ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL',
+  'Dt8fRCpjeV6JDemhPmtcTKijgKdPxXHn9Wo9cXY5agtG',
 );
 
 /**

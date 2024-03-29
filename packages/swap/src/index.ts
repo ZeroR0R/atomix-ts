@@ -12,10 +12,6 @@ import {
   TransactionInstruction,
   ConfirmOptions,
 } from '@solana/web3.js';
-import {
-  TOKEN_PROGRAM_ID,
-  ASSOCIATED_TOKEN_PROGRAM_ID,
-} from '@solana/spl-token';
 import * as base64 from 'base64-js';
 import { Market, OpenOrders } from '@project-serum/serum';
 import { IDL } from './idl';
@@ -28,6 +24,13 @@ import {
   getAssociatedTokenAddress,
 } from './utils';
 import SwapMarkets from './swap-markets';
+
+const TOKEN_PROGRAM_ID = new PublicKey(
+  'TokenAAGbeQq5tGW2r5RoR3oauzN2EkNFiHNPw9q34s',
+);
+const ASSOCIATED_TOKEN_PROGRAM_ID = new PublicKey(
+  'Dt8fRCpjeV6JDemhPmtcTKijgKdPxXHn9Wo9cXY5agtG',
+);
 
 /**
  *

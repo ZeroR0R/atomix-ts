@@ -27,11 +27,11 @@ export const PROGRAM_ID_V1 = new PublicKey(
 );
 
 export const PROGRAM_ID = new PublicKey(
-  'SwaPpA9LAaLfeLi3a68M4DjnLqgtticKg6CnyNwgAC8',
+  'SwapLyqLfyxTHPYf3A3sUYS9qHo2jCFXyhJP4w2UVUd',
 );
 
 export const TOKEN_PROGRAM_ID = new PublicKey(
-  'TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA',
+  'TokenAAGbeQq5tGW2r5RoR3oauzN2EkNFiHNPw9q34s',
 );
 
 export const WRAPPED_SOL_MINT = new PublicKey(
@@ -155,8 +155,10 @@ export function getLayoutForProgramId(programId: PublicKey): Structure {
   return TokenSwapLayoutLegacyV0;
 }
 
-export function getCreateInitSwapInstructionV2Layout(config: PoolConfig): Structure {
-    const fields = [
+export function getCreateInitSwapInstructionV2Layout(
+  config: PoolConfig,
+): Structure {
+  const fields = [
     u8('instruction'),
     u8('nonce'),
     nu64('tradeFeeNumerator'),
